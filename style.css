@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #Eab959;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* this is heading part */
+.heading{
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: #7E9680;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hand gestures */
+
+.gestures{
+    padding-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+}
+
+img{
+    border-radius: 50%;
+    /* border: 1px solid black */
+}
+
+
+img:hover{
+    border: 5px solid seagreen;
+    
+}
+
+/* score-board */
+
+.score-board{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* win msg */
+.msg-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 70px;
+
+}
+
+.win-msg{
+    height: 50px;
+    width:300px;
+    background-color: rgba(12, 50, 155, 0.911);
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* sign */
+
+
+span{
+    margin-top: 120px;
+    margin-left: 35%;
+
+    
+    color: white;
+    background-color: rgba(35, 173, 30, 0.815);
+    border-radius: 10px 20px 10px 10px;
+    width: fit-content;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
